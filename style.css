@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eaeaf8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+header {
+    padding: 10px;
+    width: 390px;
+    padding-bottom: 50px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24.5px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #121212;
+    line-height: 28px;
+}
+
+header img {
+    margin-bottom: -7px;
+    height: 106px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.card {
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.8em rgba(61, 61, 61, 0.288);
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    
+}
+
+.card input{
+    padding: 15px;
+    margin-bottom: 15px;
+    border: solid 1.5px #5959594b;
+    color: #3c3c3c;
+    border-radius: 7px;
+    font-size: 17px;
+    
+}
+
+.card .login-btn{
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 12px;
+    background: #166ddf;
+    transition: ease 0.3s all;
+}
+.card .login-btn:hover{
+    background: #1461c7;
+}
+.card p{
+    
+    cursor: pointer;
+    font-weight: normal;
+    margin-top: 17px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #1467d4;;
+}
+.card p:hover{
+    text-decoration: underline;
+}
+.card .line{
+    background: #60606062;
+    height: 1px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card .create-btn{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #36a420;
+    text-align: center;
+    width: 165px;
+    padding: 15px 10px;
+    border-radius: 7px;
+}
+
+.card-footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.aditional {
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aditional span{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aditional span:hover {
+    text-decoration: underline;
+}
