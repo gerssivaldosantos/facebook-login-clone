@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 50px;
 }
 
@@ -19,12 +19,20 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 120px;
+    align-items: center;
 }
 
 header {
     padding: 10px;
     width: 390px;
     padding-bottom: 50px;
+}
+
+.max-width{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 header h2 {
@@ -48,7 +56,7 @@ header img {
     background: white;
     width: 400px;
     border-radius: 10px;
-    box-shadow: 0 0 0.8em rgba(61, 61, 61, 0.288);
+    box-shadow: 0 0 0.5em rgba(61, 61, 61, 0.212);
     display: flex;
     flex-direction: column;
     padding: 18px;
@@ -143,4 +151,18 @@ header img {
 
 .aditional span:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 962px) {
+    body{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    main{
+     
+        margin-left: 0;
+    
+    }
+
 }
