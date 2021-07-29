@@ -5,12 +5,20 @@
 }
 
 body {
+    height: 100vh;
     background: #f1f1f7d8;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-bottom: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -44,20 +52,18 @@ header img {
     display: flex;
     flex-direction: column;
     padding: 18px;
-    
 }
 
-.card input{
+.card input {
     padding: 15px;
     margin-bottom: 15px;
     border: solid 1.5px #5959594b;
     color: #3c3c3c;
     border-radius: 7px;
     font-size: 17px;
-    
 }
 
-.card .login-btn{
+.card .login-btn {
     cursor: pointer;
     margin-top: 5px;
     color: white;
@@ -70,23 +76,27 @@ header img {
     background: #166ddf;
     transition: ease 0.3s all;
 }
-.card .login-btn:hover{
+
+.card .login-btn:hover {
     background: #1461c7;
 }
-.card p{
-    
+
+.card p {
     cursor: pointer;
     font-weight: normal;
     margin-top: 17px;
     text-align: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color:  #1467d4;;
+    color: #1467d4;
+    ;
 }
-.card p:hover{
+
+.card p:hover {
     text-decoration: underline;
 }
-.card .line{
+
+.card .line {
     background: #60606062;
     height: 1px;
     width: auto;
@@ -94,8 +104,8 @@ header img {
     margin-bottom: 25px;
 }
 
-.card .create-btn{
-    font-size: 18px;
+.card .create-btn {
+    font-size: 17px;
     font-weight: bold;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -104,9 +114,15 @@ header img {
     width: 165px;
     padding: 15px 10px;
     border-radius: 7px;
+    transition: all ease 0.3s;
+    cursor: pointer;
 }
 
-.card-footer{
+.card .create-btn:hover {
+    background: #2f911c;
+}
+
+.card-footer {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -119,9 +135,10 @@ header img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.aditional span{
+.aditional span {
     font-weight: bold;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .aditional span:hover {
